@@ -1,4 +1,6 @@
-
+Graphics/CustomBattlers/*
 Graphics/Battlers/*
-.gitignore
+Graphics/Pokemon/FusionIcons/*
+Data/SPRITE_CREDS
+Data/VERSION
  
