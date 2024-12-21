@@ -12,7 +12,7 @@ PlayerC = POKEMONTRAINER_Red,trchar003,girl_bike,girl_surf_offset,girl_run,girl_
 PlayerD = POKEMONTRAINER_Red,trchar004,girl_bike,girl_surf_offset,girl_run,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
 PlayerE = POKEMONTRAINER_Red,trchar005,girl_bike,girl_surf_offset,girl_run,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
 PlayerF = POKEMONTRAINER_Red,trchar006,girl_bike,girl_surf_offset,girl_run,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
-PlayerG = POKEMONTRAINER_Red,trchar007,girl_bike,girl_surf_offset,girl_run,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
+PlayerG = POKEMONTRAINER_Red,trchar007,girl_bike,girl_surf_offset,	,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
 PlayerH = POKEMONTRAINER_Red,trchar008,girl_bike,girl_surf_offset,girl_run,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
 #-------------------------------
 [001]
@@ -69,12 +69,12 @@ BattleBack =
 Environment = Grass
 #-------------------------------
 [009]
-# Route 25
+# Route 25	
 Outdoor = true
 ShowArea = true
 Bicycle = true
 HealingSpot = 8,17,11
-Weather = Rain,10
+Weather = Rain,100
 MapPosition = 0,41,3
 Environment = Grass
 #-------------------------------
@@ -83,7 +83,7 @@ Environment = Grass
 Outdoor = true
 ShowArea = true
 Bicycle = true
-Weather = HeavyRain,15
+Weather = Rain,15
 MapPosition = 0,43,3
 Environment = Sand
 #-------------------------------
@@ -251,12 +251,8 @@ MapPosition = 0,39,9
 Environment = MovingWater
 #-------------------------------
 [041]
-# Ruins of Abet
+# Goldenrod Waterway
 Outdoor = true
-ShowArea = true
-BicycleAlways = false
-BicycleAlways = false
-MapSize = 1,111
 #-------------------------------
 [042]
 # Pallet Town
@@ -274,11 +270,9 @@ MapPosition = 0,36,15
 MapSize = 2,11
 #-------------------------------
 [045]
-# Southern Island
-Outdoor = true
-ShowArea = true
-BicycleAlways = false
-Environment = TallGrass
+# Rocket Hideout BF2
+Outdoor = false
+MapPosition = 0,37,9
 #-------------------------------
 [046]
 # Jungle1
@@ -313,9 +307,25 @@ DarkMap = false
 BattleBack = City
 #-------------------------------
 [051]
-# Viridian City Gym
-Bicycle = false
+# Pinkan island
+Outdoor = true
+ShowArea = true
 MapPosition = 0,31,10
+#-------------------------------
+[531]
+# Pinkan forest
+Outdoor = true
+ShowArea = true
+BattleBack = Forest
+MapPosition = 0,31,10
+#-------------------------------
+[46]
+# Pinkan hollow
+ShowArea = true
+BattleBack = Forest
+MapPosition = 0,31,10
+Environment = Cave
+BattleBack = Cave
 #-------------------------------
 [052]
 # Seafoam Islands.old
@@ -1277,7 +1287,7 @@ Environment = Cave
 # Route 9
 Outdoor = true
 ShowArea = true
-MapPosition = 0,12,6
+MapPosition = 0,42,6
 Environment = Rock
 #-------------------------------
 [352]
@@ -1302,16 +1312,9 @@ MapPosition = 1,12,11
 Outdoor = true
 #-------------------------------
 [357]
-# MAP357
-Outdoor = true
+# PokéMart
+Outdoor = false
 ShowArea = true
-#-------------------------------
-[358]
-# MAP358
-Outdoor = true
-ShowArea = true
-BattleBack = Forest
-Environment = Forest
 #-------------------------------
 [359]
 # Ecruteak City
@@ -1703,7 +1706,7 @@ MapPosition = 0,35,5
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,42,6
+MapPosition = 0,41,6
 Environment = Rock
 #-------------------------------
 [496]

@@ -198,6 +198,10 @@ Pokemon = B12H61,25 #Polifree,
 ############################
 #### ROUTE 7 #############
 ############################
+[DELIVERYMAN,Phillip]
+Pokemon = PIDGEOTTO,27
+Pokemon = B225H327,32 #delibird honedge
+
 
 [SOCIALITE,Edna]
 Pokemon = B136H44,29 #Glooeon,
@@ -484,10 +488,9 @@ Pokemon = B110H139,33 #Omazing,
 Pokemon = WIGGLYTUFF,34 
 Pokemon = B17H143,34 #Snoreotto,
 ########################
+[POKEMONBREEDER,Olivia]
+Pokemon = B115H62,34 #kangaskhan/poliwrath,
 
-[BEAUTY,Olivia]
-Pokemon = BULBASAUR,34 #Koffbasaur,
-Pokemon = B2H110,34 #Weeysaur,
 ##########################
 
 [PICNICKER,Kindra]
@@ -722,7 +725,7 @@ Pokemon = B47H123,36 #SCYSECT
 ##########################
 
 [FARMER,Craig]
-Pokemon = B88H83,54 #FARMER
+Pokemon = B88H83,44 #FARMER
 #########################
 
 [FARMER,Dwight]
@@ -739,14 +742,13 @@ Pokemon = B190H108,36 #LICKIPOM
 ##############################
 
 [SWIMMER_M,Richard]
-Pokemon = CHINCHOU,36 #PSYDER
+Pokemon = KRABBY,36 #PSYDER
 Pokemon = B72H90,36 #SHELLCOOL
 ##########################
 
 [SWIMMER_M,Reece]
-Pokemon = GOLDEEN,34 
-Pokemon = HORSEA,34 #WIGGLYSEA
-Pokemon = B222H120,34 #STARSOLA
+Pokemon = GOLDEEN,33 
+Pokemon = B87H118,35 #dewgong / goldeen
 ##########################
 
 [SWIMMER_M,Tony]
@@ -1101,7 +1103,7 @@ Pokemon = B46H74,10 #GEORAS
 
 #-------------------
 
-[LASS,Ali]
+[LASS_blue,Ali]
 Pokemon = ABRA,12 
 Pokemon = B21H16,12 #PIROW
 Pokemon = B43H56,12 #MANISH
@@ -1113,7 +1115,7 @@ Pokemon = EKANS,14
 Pokemon = B27H52,14 #MEOWSHREW
 #-------------------
 
-[LASS,Reli]
+[LASS_blue,Reli]
 Pokemon = RATTATA,14 
 Pokemon = B100H109,14 
 #-------------------
@@ -1133,6 +1135,10 @@ Pokemon = EKANS,15
 Pokemon = B41H109,15 
 	Ball = ROCKETBALL
 
+[FISHERMAN,Jack]
+Pokemon = B52H54,14 #Meowth/Psydeuxk
+[FISHERMAN,Tom]
+Pokemon = B39H61,14 #jigglypuff/poliwhirl
 ###################
 #### S.S. ANNE ####
 ###################
@@ -1166,9 +1172,8 @@ Pokemon = B17H118,18 #Golgeotto,
 Pokemon = B32H66,21 #Maran,
 ####################FLOOR 2#######
 
-[FISHERMAN,Dale]
+[FISHERMAN,Ned]
 Pokemon = GOLDEEN,16 
-Pokemon = B129H118,17 #Golkarp,
 Pokemon = B72H129,17 #Magicool,
 #----------------------------------------
 
@@ -1209,7 +1214,7 @@ Pokemon = B72H100,18 #Voltcool,
 #------------------------------------------
 
 [FISHERMAN,Barny]
-Pokemon = KRABBY,17 #Kakby,�
+Pokemon = KRABBY,17 #Kakby,
 Pokemon = SHELLDER,17 #Venoder,
 Pokemon = B120H46,17 #Payu,
 #---------------------------------------
@@ -1247,8 +1252,8 @@ Pokemon = B19H19,17
 #----------------
 
 [YOUNGSTER,Dan]
-Pokemon = B79H46,15 
-Pokemon = B21H60,15 
+Pokemon = B35H60,16	#jigglypuff/poliwag
+
 #----------------
 
 [PICNICKER,Kelsey]
@@ -1274,31 +1279,32 @@ Pokemon = B19H1,14
 Pokemon = B23H96,14 
 #------------------
 
-[LASS,Haley]
+[LASS_blue,Haley]
 Pokemon = ODDISH,13 
 Pokemon = PIDGEY,13 
 Pokemon = B46H43,15 #ODDRAS
 
+
+
+
 ##########Fighting Dojo###########
 
 [BLACKBELT,Hitoshi]
-Pokemon = B56H52,34 
-Pokemon = B127H56,34 
-Pokemon = B67H56,34 
+Pokemon = B56H52,37 		#mankey / meowth
 #-------------------
 
 [CRUSHGIRL,Yoshimi]
-Pokemon = B67H81,39 
+Pokemon = B23H57,37			#ekans / primeape 		
+
+
 #-----------------
 
 [BLACKBELT,Hideki]
-Pokemon = B66H83,38 
-Pokemon = B67H111,38 
+Pokemon = B60H68,38 		#poliwag/machamp
 #-----------------
 
 [CRUSHGIRL,Lucy]
-Pokemon = B57H214,35 
-Pokemon = B62H75,38 
+Pokemon = B62H75,38 	#poliwrath / graveler
 #-----------------
 
 [BLACKBELT,Mike]
@@ -1657,6 +1663,10 @@ Pokemon = B111H70,43 #WEEPINHORN
 Pokemon = B105H105,43 #DMAROWAK
 Pokemon = B31H20,43 #RATQUEEN
 
+##Cerulean CITY
+[LASS_blue,Jen]
+Pokemon = B80H101,20 #Slowbro/Electrode
+
 #################
 ###Cerulean Gym###
 ##################
@@ -1666,7 +1676,7 @@ Pokemon = B98H90,16
 Pokemon = B116H23,16 
 #---------------
 
-[PICNICKER,Diana]
+[LASS_blue,Diana]
 Pokemon = B50H120,19	 #Starlett
 #######################
 # ECRUTEAK GYM  ##
@@ -2254,26 +2264,26 @@ Pokemon = B268H302,71 #CRAMORTAR
 
 [LEADER_Giovanni,Giovanni,0]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
-Pokemon = B131H265,50 #Rhyras,
+Pokemon = B131H265,50 #rhydon + lapras
 	Moves = SURF,BULLDOZE,SANDSTORM,SING
 	AbilityIndex = 1
-	Item = 	SOFTSAND
+	Item = 	SMOOTHROCK
 	Ball = ULTRABALL
 
-Pokemon = B51H125,50 #Electatrio,
+Pokemon = B51H125,50 #electabuzz dugtrio,
 	Moves = BULLDOZE,LIGHTSCREEN,THUNDERWAVE,DISCHARGE
 	AbilityIndex = 0
 	Item = 	SOFTSAND
 	Ball = ULTRABALL
 
-Pokemon = B68H76,52 #GOLCHAMP,
+Pokemon = B68H76,52 #golem machamp,
 	Moves = EARTHQUAKE,DYNAMICPUNCH,COUNTER,SCARYFACE
 	AbilityIndex = 0
 	Item = 	SOFTSAND
 	Ball = ULTRABALL
 
-Pokemon = B248H273,54 #DNIDOKING,
-	Moves = EARTHQUAKE,THRASH,MEGAHORN,POISONJAB
+Pokemon = B34H57,54 #	#nidking primeape,
+	Moves = EARTHQUAKE,CLOSECOMBAT,MEGAHORN,SWAGGER
 	AbilityIndex = 1
 	Item = 	SOFTSAND
 	Ball = ULTRABALL
@@ -3921,7 +3931,7 @@ Pokemon = B205H82,38 #MAGNETRESS
 ##########################
 
 [WORKER,John]
-Pokemon = B137H233,44 #PORYGON
+Pokemon = B95H214,44 #onix/heracross
 ##########################
 
 [WORKER,Felix]
@@ -3962,7 +3972,7 @@ Pokemon = B20H162,42 #FURICATE
 	Ball = ROCKETBALL
 ##########################
 
-[ROCKETEXEC_M,Archer]
+[ROCKETEXEC_Archer,Archer]
 Pokemon = B57H228,44 #HOUNDAPE
 	Ball = ROCKETBALL
 Pokemon = B168H110,44 #WEEZDOS
@@ -4112,9 +4122,9 @@ Pokemon = B40H107,42 #HITMONTUFF
 Pokemon = B242H237,42 #HITMONSSEY
 ###################
 
-[COOLTRAINER_F,Rike]
-Pokemon = SKARMORY,45 
-Pokemon = B53H87,45 #DEWSIAN
+[COOLTRAINER_F,Sofia]
+Pokemon = CHANSEY,42 
+Pokemon = B196H214,45 #espeon /heracross <3
 ##############
 
 [COOLTRAINER_M,Kirill]
@@ -4122,7 +4132,7 @@ Pokemon = B233H230,48 #KINGGON2
 #######################
 
 [COOLTRAINER_M,Ryan]
-Pokemon = B242H71,45 #VICTREESSEY
+Pokemon = B242H71,44 #VICTREESSEY
 ########################
 
 [HIKER,Oscar]
@@ -4230,7 +4240,7 @@ Pokemon = B91H185,41 #SUDOSTER
 #####################################
 
 [PICNICKER,Kim]
-Pokemon = B38H26,39 #RAITALES
+Pokemon = B232H40,39 #RAITALES
 #####################################
 
 [CAMPER,Elliot]
@@ -4593,9 +4603,8 @@ Pokemon = B51H254,55 #AMBITRIO
 #####################
 
 [SWIMMER_F,Abigail]
-Pokemon = PSYDUCK,35 
-Pokemon = PSYDUCK,35 
-Pokemon = B55H24,36 #GOLBOK
+Pokemon = SEEL,35 
+Pokemon = B87H78,36 #dewgong/rapidash
 ####################
 
 [CRUSHGIRL,Celine]
@@ -4670,7 +4679,7 @@ Pokemon = B318H224,54 #OCTITERRA
 [SWIMMER_M,Raphael]
 Pokemon = GRAVELER,49 
 Pokemon = TENTACRUEL,49 
-Pokemon = B176H127,53 #SKARTIC
+Pokemon = B455H213,53 #toxapex shuckle
 ##########################
 
 [SWIMMER_F,Eva]
@@ -4681,7 +4690,7 @@ Pokemon = B119H314,55 #SEALORD
 [FISHERMAN,Tommy]
 Pokemon = GOLDEEN,51 
 Pokemon = GOLDEEN,51 
-Pokemon = B86H298,54 
+Pokemon = B139H453,54 #omastar/dhelmise
 #############################
 ####	BOND Bridge		#
 #############################
@@ -4689,18 +4698,17 @@ Pokemon = B86H298,54
 [POKEMONRANGER_M,Steve]
 Pokemon = B7H316,54 #TURTLE
 Pokemon = B6H301,53 #LIZARD
-Pokemon = B4H336,53 #SALAMANDER
-Pokemon = B158H159,57 #CROCODILE
+
 #############################
 
 [POKEMONRANGER_F,Jane]
 Pokemon = B56H320,54 #MONKEY
 Pokemon = B56H232,54 #DONKEY
-Pokemon = B215H262,54 #WEASEL
 ############################
 
 [POKEMONRANGER_M,Osman]
-Pokemon = B56H316,58 #TURKEY
+Pokemon = B4H336,53 #SALAMANDER
+Pokemon = B158H159,57 #CROCODILE
 ###########################
 
 [POKEMONRANGER_F,Selena]
@@ -4741,7 +4749,7 @@ Pokemon = B124H272,61 #glisnx
 	Ball = ROCKETBALL
 ######################
 
-[ROCKETEXEC_F,Ariana]
+[ROCKETEXEC_Ariana,Ariana]
 Items = MAXPOTION
 Pokemon = B45H266,65 #VILEGROWTH
 	Ball = ROCKETBALL
@@ -4799,6 +4807,57 @@ Pokemon = B308H221,52 #PILLODON
 Pokemon = B37H225,47 #VULBIRD
 Pokemon = B38H225,54 #NINEBIRD
 
+####################
+## PINKAN ISLAND ###
+####################
+
+[TEAMROCKET_F,Angelina]
+Pokemon = RATTATA,13
+	Ball = ROCKETBALL
+	
+[POLICE,Graham]
+Pokemon = SNUBBULL,13
+	
+[TEAMROCKET_F,Ellen]
+Pokemon = VENONAT,13
+	Ball = ROCKETBALL
+Pokemon = B493H238,14		#Scraggy - Smoochum
+	Ball = ROCKETBALL
+	
+[POLICE,Ripley]
+Pokemon = STUFFUL,13
+Pokemon = B58H491,14		#Growlithe - Swirlix
+	
+[TEAMROCKET_M,Nathan]
+Pokemon = B109H39,17		#Koffing - Jigglypuff
+	Ball = ROCKETBALL
+	
+[POLICE, Adams]
+Pokemon = B220H259,17		#Swinub - Happiny
+	
+[TEAMROCKET_F,Zoe]
+Pokemon = B215H79,20		#Sneasel - Slowpoke
+	Ball = ROCKETBALL
+	
+[POLICE,Rayne]
+Pokemon = B58H108,20		#Growlithe - Lickitung
+	
+[TEAMROCKET_M,Rufus]
+Pokemon = SNUBBULL,17
+	Ball = ROCKETBALL
+Pokemon = B228H222,18		#Houndour - Corsola
+	Ball = ROCKETBALL
+	
+[POLICE,Clifford]
+Pokemon = SNUBBULL,17
+Pokemon = B463H35,18		#Rockruff - Clefairy
+	
+[TEAMROCKET_M,Michael]
+Pokemon = B23H122,21		#Ekans - Mr. Mime
+	Ball = ROCKETBALL
+	
+[POLICE,Jackson]
+Pokemon = B451H432,21		#Stufful - Oricorio Pa'u
 
 ##################
 ###################
@@ -4883,3 +4942,74 @@ Pokemon = B299H134,73 #GARCHOMP / VAPOREON
 	Moves = EARTHQUAKE,DRAGONCLAW,AQUATAIL,SWORDSDANCE
 	AbilityIndex = 1	#WATER ABSORB
 	Item = RINDOBERRY
+	
+	
+	
+#######################Type experts 	#todo: sprinkle some new pokemon in the teams
+[TYPE_EXPERT_ELECTRIC,Ray]	#power plant
+Pokemon = B46H25,30 	#Paras / PIKACHU
+Pokemon = B81H74,30 	#magnemite / geodude
+Pokemon = B33H100,30 	#Nidorino / Voltorb
+Pokemon = B95H239,30 	#Onix / Elekid
+
+
+[TYPE_EXPERT_BUG,Bea]	#Safari Zone
+Pokemon = B102H193,30 	#exeggcute / yanma
+Pokemon = B123H214,30 	#scyther/ heracross
+Pokemon = B64H212,30 	#scizor/ kadabra
+Pokemon = B95H127,30 	#pinsir/ onix
+
+
+[TYPE_EXPERT_FAIRY,Luna]	#TBD
+Pokemon = B44H35,30		#gloom / clefairy
+Pokemon = B39H32,30		#jigglypuff / nidoranm
+Pokemon = B209H43,30	#snubull / oddish
+Pokemon = B52H176,30	#meowth / togetic
+
+[TYPE_EXPERT_DRAGON,Draco]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_FIGHTING,Floyd]	#TBD
+Pokemon = B97H456,30	#hypno / hawlucha
+Pokemon = B67H81,30	#machoke / magnemite
+Pokemon = B113H57,30	#chansey / primeape
+Pokemon = B280H153,30	#combusken / bayleef
+
+[TYPE_EXPERT_GROUND,Pedro]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_FIRE,Blaze]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_GRASS,Ivy]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_ICE,Crystal]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_ROCK,Slate]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_WATER,Marina]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_FLYING,Gale]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_DARK,Raven]	#TBD
+Pokemon = SWINUB,30 
+
+[TYPE_EXPERT_STEEL,Silvia]	#TBD
+Pokemon = SWINUB,30
+
+[TYPE_EXPERT_PSYCHIC,Carl]	#TBD
+Pokemon = SWINUB,30
+
+[TYPE_EXPERT_GHOST,Evangeline]	#TBD
+Pokemon = SWINUB,30
+
+[TYPE_EXPERT_POISON,Marie]	#Sewers
+Pokemon = SWINUB,30
+
+[TYPE_EXPERT_NORMAL,Tim]	#Sewers
+Pokemon = SWINUB,30
