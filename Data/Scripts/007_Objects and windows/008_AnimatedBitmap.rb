@@ -10,7 +10,7 @@ def hue_nocolor(level)
       for x in 0...width
         color = get_pixel(x, y)
         next if color.green <= 200 && (color.green <= color.blue || color.green <= color.red)
-        next if (color.red <= 40 && color.green <= 40 && color.blue <= 40) || (color.red >= 200 && color.green >= 200 && color.blue >= 200) || (color.red == color.green && color.green == color.blue)
+        next if (color.red <= 40 && color.green <= 40 && color.blue <= 40) || (color.red >= 220 && color.green >= 220 && color.blue >= 220) || (color.red == color.green && color.green == color.blue)
         gray = (color.red + color.green + color.blue) / 3 # Conversion en niveaux de gris
         factor = level.abs / 255.0 # Normalisation entre 0 et 1
         tolerance = 150
@@ -94,7 +94,7 @@ def hue_yellow(intensity = 255)
   width.times do |x|
     height.times do |y|
       color = get_pixel(x, y)
-      next if color.green <= color.blue || color.green <= color.red
+      next if color.green + 30 <= color.blue || color.green + 30 <= color.red
       new_red = [color.green + intensity, 255].min
       new_green = [color.green + intensity, 255].min
       new_blue = [color.blue - intensity, 0].max
@@ -108,7 +108,7 @@ def hue_pink(intensity = 255)
   width.times do |x|
     height.times do |y|
       color = get_pixel(x, y)
-      next if color.red <= color.blue || color.red <= color.green
+      next if color.red + 30 <= color.blue || color.red + 30 <= color.green
       new_red = [color.red + intensity, 255].min
       new_green = [color.green - intensity, 0].max
       new_blue = [color.red + intensity, 255].min
@@ -122,7 +122,7 @@ def hue_cyan(intensity = 255)
   width.times do |x|
     height.times do |y|
       color = get_pixel(x, y)
-      next if color.blue <= color.green || color.blue <= color.red
+      next if color.blue + 30 <= color.green || color.blue + 30 <= color.red
       new_red = [color.red - intensity, 0].max
       new_green = [color.blue + intensity, 255].min
       new_blue = [color.blue + intensity, 255].min
