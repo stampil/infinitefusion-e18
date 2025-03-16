@@ -78,7 +78,17 @@ class Bitmap
     end
   end
     
-  
+  def hue_changefix(offset)
+    if offset == 300
+      return hue_pink(20)
+    elsif  offset == 301
+      return hue_yellow(20)
+    elsif  offset == 302
+      return hue_cyan(20)
+    else
+      return hue_change(offset)
+    end
+  end
   
   class AnimatedBitmap
     attr_reader :path
@@ -131,17 +141,9 @@ class Bitmap
     end
   
     def shiftColors(offset = 0)
-      
-      if offset == 300
-        @bitmap.bitmap.hue_pink(20)
-      elsif  offset == 301
-        @bitmap.bitmap.hue_yellow(20)
-      elsif  offset == 302
-        @bitmap.bitmap.hue_cyan(20)
-      else
-        @bitmap.bitmap.hue_change(offset)
-      end
+      @bitmap.bitmap.hue_changefix(offset)
     end
+  
     def shiftBWColors(offset = 0)
       @bitmap.bitmap.hue_nocolor(offset)
     end
